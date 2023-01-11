@@ -1,9 +1,10 @@
 
 const Header = (props) => {
-    return (
+    return (<div id="header">
         <div id={props.id}>
             {props.content}
         </div>
+    </div>
     );
 }
 
