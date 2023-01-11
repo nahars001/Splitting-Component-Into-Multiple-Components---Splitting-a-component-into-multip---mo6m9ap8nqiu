@@ -1,12 +1,10 @@
 import React from "react";
 const Footer =(props)=> {
 return(
-    
+    // <div id="footer">
         <footer id={props.id}>
-        <div id="footer">   {props.content}  </div>
-           
-            </footer>
-
+            {props.content}</footer>
+    /* </div> */
 );
 }
 
