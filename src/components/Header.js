@@ -1,10 +1,10 @@
 import React from "react";
 const Header = (props) => {
-    return (<div id="header">
+    return (<header id="header">
         <div id={props.id}>
             {props.content}
         </div>
-    </div>
+    </header>
     );
 }
 
