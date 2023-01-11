@@ -4,7 +4,7 @@ return(
      <div id={props.id}>
         <footer id={props.id}>This is the footer</footer>
         <footer id={props.id}> 
-        <div id="footer">
+            <div id={props.id}>
         {props.content}
             </div>
         </footer>
