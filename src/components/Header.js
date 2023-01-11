@@ -1,10 +1,9 @@
 import React from "react";
 const Header = (props) => {
-    return (<header id="header">
-        <div id="container">
-            {props.content}
-        </div>
-    </header>
+    return (
+   <div id={props.id}> 
+            <header id="my-header">{props.content}</header>
+    </div>
     );
 }
 

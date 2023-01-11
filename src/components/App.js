@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function App() {
     return (
         <div className="container">
-            <Header id="header" content = "This is the header" > </Header>
+            <Header id="header" content="This is the header"> </Header>
             <Main id="main" content= "This is the main"></Main>
             <Footer id="footer" content ="This is the footer" > </Footer>
         </div>
